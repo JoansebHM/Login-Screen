@@ -1,14 +1,9 @@
-Para poder iniciar correctamente el programa, mongodb y npm deben estar instalados en el sistema y agregados a las variables
-de entorno para poder ejecutarlas desde el terminal.
+In order to successfully start the program, mongodb and npm must be installed on the system and added to the environment variables in order to execute them from the terminal.
 
-Una vez instaladas, ejecute en la consola de visual code el comando: npm run dev , para poder iniciar el servidor y conectarse a la base de datos
-automaticamente. Si todo sale bien, en consola deben aparecer 2 mensajes diciendo que el servidor esta en el puerto 3000 y que la base de datos esta conectada.
+Once installed, run the command: npm run dev , in the visual code console, so that you can start the server and connect to the database automatically. If everything goes well, the console should display 2 messages saying that the server is on port 3000 and that the database is connected.
 
-En este punto ya puede ingresar a su navegador web y poner localhost:3000 para poder abrir el servidor.
+At this point you can now enter your web browser and set localhost:3000 to open the server.
 
-Una vez haya completado los pasos anteriores, abra otra consola y digite el comando mongosh para abrir la base de datos, luego ingrese a la base de de datos
-que hemos creado, con el comando: use node-login-passport-local , una vez adentro, digite el comando: db.users.find() , para poder ver los usuarios registrados 
-en ese momento. 
+Once you have completed the above steps, open another console and type the mongosh command to open the database, then enter the database we have created, with the command: Use node-login-passport-local . Once in, type the command: db.users.find() , to be able to see the users registered at that time.
 
-En este punto la aplicacion esta lista para guardar usuarios en la base de datos y autenticarlos. Por otra parte usted puede ver en la base de datos a medida
-que los usuarios se van registrando.
+Now the application is ready to save users in the database and authenticate them. Moreover you can see in the database as <br> users are registered.
